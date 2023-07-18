@@ -6,6 +6,7 @@
 
 * {
     font-family: 'Work Sans', sans-serif;
+    
 }
 
 .text_light_gray {
@@ -277,6 +278,11 @@ nav ul li a {
         margin: auto;
     }
 
+   
+    .features_img img{
+        margin-left: 0px;
+    }
+
     /* Features section */
     .features_section {
         margin: 20px;
@@ -310,7 +316,15 @@ nav ul li a {
     .sponspors_img_container {
         flex-direction: column;
     }
-
+    .teams_title {
+        font-size: 1.9rem;
+    }
+    .banner_title {
+        font-size: 2rem;
+    }
+    .section_title {
+        font-size: 1.8rem;
+    }
     .teams_img_container {
         grid-template-columns: 1fr;
     }
